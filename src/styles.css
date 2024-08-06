@@ -1,0 +1,126 @@
+/* styles.css */
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .navbar-brand img {
+    max-width: 150px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #000;
+  }
+  
+  .header, .footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .footer .social-links a {
+    color: #555;
+  }
+  
+  .footer .social-links a:hover {
+    color: #000;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .product-carousel .product-item {
+    text-align: center;
+  }
+  
+  .product-carousel .product-item .product-image {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .product-carousel .product-item .product-content {
+    margin-top: 10px;
+  }
+  
+  .product-carousel .product-item .product-content h5 {
+    font-size: 1rem;
+  }
+  
+  .categories .cat-item {
+    position: relative;
+  }
+  
+  .categories .cat-item .image-holder {
+    overflow: hidden;
+  }
+  
+  .categories .cat-item .category-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .categories .cat-item .category-content .btn {
+    margin-top: 20px;
+  }
+  
+  .insta-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer-menu {
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu .menu-list {
+    padding: 0;
+  }
+  
+  .footer-menu .menu-list .menu-item {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu .menu-list .menu-item a {
+    color: #555;
+  }
+  
+  .footer-menu .menu-list .menu-item a:hover {
+    color: #000;
+  }
+  
+  .icon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .instagram-item:hover .icon-overlay {
+    display: flex;
+  }
+  
